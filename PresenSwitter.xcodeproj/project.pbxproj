@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		832020504704E7F1BA61DEC0 /* libPods-PresenSwitterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F29CA3C9C0C52461AB7881 /* libPods-PresenSwitterTests.a */; };
+		8854AC5A5E32AF9911FB0D88 /* libPods-PresenSwitter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 384ADA128D31682145705095 /* libPods-PresenSwitter.a */; };
+		D75341AF1CF83FB000744D8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D75341AE1CF83FB000744D8A /* AppDelegate.m */; };
+		D75341B21CF83FB000744D8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D75341B11CF83FB000744D8A /* main.m */; };
+		D75341B51CF83FB000744D8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75341B41CF83FB000744D8A /* ViewController.m */; };
+		D75341B71CF83FB000744D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D75341B61CF83FB000744D8A /* Assets.xcassets */; };
+		D75341BA1CF83FB000744D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75341B81CF83FB000744D8A /* Main.storyboard */; };
+		D75341C51CF83FB000744D8A /* PresenSwitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D75341C41CF83FB000744D8A /* PresenSwitterTests.m */; };
+		D7CAB4291CFA0B7A00EAE6C4 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CAB4281CFA0B7A00EAE6C4 /* Tweet.m */; };
+		D7CAB42C1CFA0C6A00EAE6C4 /* Tweets.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CAB42B1CFA0C6A00EAE6C4 /* Tweets.m */; };
+		D7CDC3F71CF927B50016E051 /* TweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CDC3F61CF927B50016E051 /* TweetCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D75341C11CF83FB000744D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D75341A21CF83FB000744D8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D75341A91CF83FB000744D8A;
+			remoteInfo = PresenSwitter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32A3C080B113A818DC3B01B3 /* Pods-PresenSwitter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PresenSwitter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PresenSwitter/Pods-PresenSwitter.debug.xcconfig"; sourceTree = "<group>"; };
+		384ADA128D31682145705095 /* libPods-PresenSwitter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PresenSwitter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77127D1ACC013CF72959E5D5 /* Pods-PresenSwitterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PresenSwitterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PresenSwitterTests/Pods-PresenSwitterTests.release.xcconfig"; sourceTree = "<group>"; };
+		91D7A2D5B0F9CD17C0136976 /* Pods-PresenSwitter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PresenSwitter.release.xcconfig"; path = "Pods/Target Support Files/Pods-PresenSwitter/Pods-PresenSwitter.release.xcconfig"; sourceTree = "<group>"; };
+		C2F29CA3C9C0C52461AB7881 /* libPods-PresenSwitterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PresenSwitterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF30D23D2CD0DF134CC3CF70 /* Pods-PresenSwitterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PresenSwitterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PresenSwitterTests/Pods-PresenSwitterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D75341AA1CF83FB000744D8A /* PresenSwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresenSwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75341AD1CF83FB000744D8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D75341AE1CF83FB000744D8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D75341B11CF83FB000744D8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D75341B31CF83FB000744D8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D75341B41CF83FB000744D8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D75341B61CF83FB000744D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D75341B91CF83FB000744D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D75341BB1CF83FB000744D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D75341C01CF83FB000744D8A /* PresenSwitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresenSwitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75341C41CF83FB000744D8A /* PresenSwitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresenSwitterTests.m; sourceTree = "<group>"; };
+		D75341C61CF83FB000744D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A5EF911CF850E900CCE29D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D7A5EF931CF850F000CCE29D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		D7A5EF951CF850FB00CCE29D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		D7CAB4271CF9737500EAE6C4 /* PresenSwitter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PresenSwitter.entitlements; sourceTree = "<group>"; };
+		D7CAB4281CFA0B7A00EAE6C4 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
+		D7CAB42A1CFA0B8900EAE6C4 /* Tweet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		D7CAB42B1CFA0C6A00EAE6C4 /* Tweets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweets.m; sourceTree = "<group>"; };
+		D7CAB42D1CFA0C7500EAE6C4 /* Tweets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tweets.h; sourceTree = "<group>"; };
+		D7CDC3F51CF927B50016E051 /* TweetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetCell.h; sourceTree = "<group>"; };
+		D7CDC3F61CF927B50016E051 /* TweetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D75341A71CF83FB000744D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8854AC5A5E32AF9911FB0D88 /* libPods-PresenSwitter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75341BD1CF83FB000744D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832020504704E7F1BA61DEC0 /* libPods-PresenSwitterTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		035FE4E37CC7EAD9DE585069 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5EF951CF850FB00CCE29D /* Social.framework */,
+				D7A5EF931CF850F000CCE29D /* Accounts.framework */,
+				D7A5EF911CF850E900CCE29D /* Security.framework */,
+				384ADA128D31682145705095 /* libPods-PresenSwitter.a */,
+				C2F29CA3C9C0C52461AB7881 /* libPods-PresenSwitterTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75E74C8E4755E8EF9725E36C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32A3C080B113A818DC3B01B3 /* Pods-PresenSwitter.debug.xcconfig */,
+				91D7A2D5B0F9CD17C0136976 /* Pods-PresenSwitter.release.xcconfig */,
+				CF30D23D2CD0DF134CC3CF70 /* Pods-PresenSwitterTests.debug.xcconfig */,
+				77127D1ACC013CF72959E5D5 /* Pods-PresenSwitterTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D75341A11CF83FB000744D8A = {
+			isa = PBXGroup;
+			children = (
+				D75341AC1CF83FB000744D8A /* PresenSwitter */,
+				D75341C31CF83FB000744D8A /* PresenSwitterTests */,
+				D75341AB1CF83FB000744D8A /* Products */,
+				035FE4E37CC7EAD9DE585069 /* Frameworks */,
+				75E74C8E4755E8EF9725E36C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D75341AB1CF83FB000744D8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D75341AA1CF83FB000744D8A /* PresenSwitter.app */,
+				D75341C01CF83FB000744D8A /* PresenSwitterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D75341AC1CF83FB000744D8A /* PresenSwitter */ = {
+			isa = PBXGroup;
+			children = (
+				D7CAB4271CF9737500EAE6C4 /* PresenSwitter.entitlements */,
+				D75341AD1CF83FB000744D8A /* AppDelegate.h */,
+				D75341AE1CF83FB000744D8A /* AppDelegate.m */,
+				D75341B31CF83FB000744D8A /* ViewController.h */,
+				D75341B41CF83FB000744D8A /* ViewController.m */,
+				D75341B61CF83FB000744D8A /* Assets.xcassets */,
+				D75341B81CF83FB000744D8A /* Main.storyboard */,
+				D75341BB1CF83FB000744D8A /* Info.plist */,
+				D75341B01CF83FB000744D8A /* Supporting Files */,
+				D7CDC3F51CF927B50016E051 /* TweetCell.h */,
+				D7CDC3F61CF927B50016E051 /* TweetCell.m */,
+				D7CAB4281CFA0B7A00EAE6C4 /* Tweet.m */,
+				D7CAB42A1CFA0B8900EAE6C4 /* Tweet.h */,
+				D7CAB42B1CFA0C6A00EAE6C4 /* Tweets.m */,
+				D7CAB42D1CFA0C7500EAE6C4 /* Tweets.h */,
+			);
+			path = PresenSwitter;
+			sourceTree = "<group>";
+		};
+		D75341B01CF83FB000744D8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D75341B11CF83FB000744D8A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D75341C31CF83FB000744D8A /* PresenSwitterTests */ = {
+			isa = PBXGroup;
+			children = (
+				D75341C41CF83FB000744D8A /* PresenSwitterTests.m */,
+				D75341C61CF83FB000744D8A /* Info.plist */,
+			);
+			path = PresenSwitterTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D75341A91CF83FB000744D8A /* PresenSwitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D75341C91CF83FB000744D8A /* Build configuration list for PBXNativeTarget "PresenSwitter" */;
+			buildPhases = (
+				782B89374A318342C16FEA46 /* [CP] Check Pods Manifest.lock */,
+				D75341A61CF83FB000744D8A /* Sources */,
+				D75341A71CF83FB000744D8A /* Frameworks */,
+				D75341A81CF83FB000744D8A /* Resources */,
+				0B380BE40324B0C165F6F35B /* [CP] Embed Pods Frameworks */,
+				8FAB11B56D83CA929A731B30 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PresenSwitter;
+			productName = PresenSwitter;
+			productReference = D75341AA1CF83FB000744D8A /* PresenSwitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D75341BF1CF83FB000744D8A /* PresenSwitterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D75341CC1CF83FB000744D8A /* Build configuration list for PBXNativeTarget "PresenSwitterTests" */;
+			buildPhases = (
+				FB904B4386276B52D97E7FC2 /* [CP] Check Pods Manifest.lock */,
+				D75341BC1CF83FB000744D8A /* Sources */,
+				D75341BD1CF83FB000744D8A /* Frameworks */,
+				D75341BE1CF83FB000744D8A /* Resources */,
+				486C964A36F0F4FF0D891D55 /* [CP] Embed Pods Frameworks */,
+				B77657696D5D51363247C9A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D75341C21CF83FB000744D8A /* PBXTargetDependency */,
+			);
+			name = PresenSwitterTests;
+			productName = PresenSwitterTests;
+			productReference = D75341C01CF83FB000744D8A /* PresenSwitterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D75341A21CF83FB000744D8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SAPPOROWORKS;
+				TargetAttributes = {
+					D75341A91CF83FB000744D8A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 359LVN2JBK;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					D75341BF1CF83FB000744D8A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D75341A91CF83FB000744D8A;
+					};
+				};
+			};
+			buildConfigurationList = D75341A51CF83FB000744D8A /* Build configuration list for PBXProject "PresenSwitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D75341A11CF83FB000744D8A;
+			productRefGroup = D75341AB1CF83FB000744D8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D75341A91CF83FB000744D8A /* PresenSwitter */,
+				D75341BF1CF83FB000744D8A /* PresenSwitterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D75341A81CF83FB000744D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75341B71CF83FB000744D8A /* Assets.xcassets in Resources */,
+				D75341BA1CF83FB000744D8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75341BE1CF83FB000744D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B380BE40324B0C165F6F35B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PresenSwitter/Pods-PresenSwitter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		486C964A36F0F4FF0D891D55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PresenSwitterTests/Pods-PresenSwitterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		782B89374A318342C16FEA46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FAB11B56D83CA929A731B30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PresenSwitter/Pods-PresenSwitter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B77657696D5D51363247C9A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PresenSwitterTests/Pods-PresenSwitterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB904B4386276B52D97E7FC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D75341A61CF83FB000744D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75341B51CF83FB000744D8A /* ViewController.m in Sources */,
+				D75341B21CF83FB000744D8A /* main.m in Sources */,
+				D7CAB4291CFA0B7A00EAE6C4 /* Tweet.m in Sources */,
+				D7CAB42C1CFA0C6A00EAE6C4 /* Tweets.m in Sources */,
+				D75341AF1CF83FB000744D8A /* AppDelegate.m in Sources */,
+				D7CDC3F71CF927B50016E051 /* TweetCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75341BC1CF83FB000744D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75341C51CF83FB000744D8A /* PresenSwitterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D75341C21CF83FB000744D8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D75341A91CF83FB000744D8A /* PresenSwitter */;
+			targetProxy = D75341C11CF83FB000744D8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D75341B81CF83FB000744D8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D75341B91CF83FB000744D8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D75341C71CF83FB000744D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D75341C81CF83FB000744D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D75341CA1CF83FB000744D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32A3C080B113A818DC3B01B3 /* Pods-PresenSwitter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PresenSwitter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ne.sapporoworks.PresenSwitter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D75341CB1CF83FB000744D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D7A2D5B0F9CD17C0136976 /* Pods-PresenSwitter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PresenSwitter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ne.sapporoworks.PresenSwitter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		D75341CD1CF83FB000744D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF30D23D2CD0DF134CC3CF70 /* Pods-PresenSwitterTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PresenSwitterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ne.sapporoworks.PresenSwitterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PresenSwitter.app/Contents/MacOS/PresenSwitter";
+			};
+			name = Debug;
+		};
+		D75341CE1CF83FB000744D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77127D1ACC013CF72959E5D5 /* Pods-PresenSwitterTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PresenSwitterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ne.sapporoworks.PresenSwitterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PresenSwitter.app/Contents/MacOS/PresenSwitter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D75341A51CF83FB000744D8A /* Build configuration list for PBXProject "PresenSwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75341C71CF83FB000744D8A /* Debug */,
+				D75341C81CF83FB000744D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D75341C91CF83FB000744D8A /* Build configuration list for PBXNativeTarget "PresenSwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75341CA1CF83FB000744D8A /* Debug */,
+				D75341CB1CF83FB000744D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D75341CC1CF83FB000744D8A /* Build configuration list for PBXNativeTarget "PresenSwitterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75341CD1CF83FB000744D8A /* Debug */,
+				D75341CE1CF83FB000744D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D75341A21CF83FB000744D8A /* Project object */;
+}
