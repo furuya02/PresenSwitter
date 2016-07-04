@@ -15,7 +15,6 @@
 
 @implementation ViewController
 
-
 - (void)viewDidLoad {
     [super viewDidLoad];
 
@@ -34,7 +33,12 @@
     [_tableview setHeaderView:nil];
     self.view.alphaValue = 0;
 
-    [self startTimer];
+    _timer = [NSTimer scheduledTimerWithTimeInterval:5
+                                              target:self
+                                            selector:@selector(update:)
+                                            userInfo:nil
+                                             repeats:YES
+              ];
 }
 
 // キー入力有効
@@ -102,48 +106,29 @@
     return rect.size.height + 50;
 }
 
-// 選択不可
 - (BOOL)selectionShouldChangeInTableView:(NSTableView *)aTableView
 {
-    return NO;
+    return NO;// 選択不可
+
 }
 
-// リサイズ
 - (void)tableViewColumnDidResize:(NSNotification *)notification
 {
-    [_tableview reloadData];
+    [_tableview reloadData]; // リサイズ
 }
 
 #pragma Timer
 
-- (void)startTimer {
-    _timer = [NSTimer scheduledTimerWithTimeInterval:5
-                                               target:self
-                                             selector:@selector(update:)
-                                             userInfo:nil
-                                              repeats:YES
-            ];
-}
-
-- (void)stopTimer {
-    if (_timer != nil) {
-        [_timer invalidate];
-        //[_timer release];
-        _timer = nil;
-    }
-}
-
 -(void)update:(NSTimer *)theTimer
 {
     // 検索文字列
-    NSString *query = @"#女性に見せかけて書生";
+    NSString *query = @"#cmdevio2016";
 
     NSString *ConsumerKey = @"XXXXXXXXXXXXXXXX";
     NSString *ConsumerSecret = @"XXXXXXXXXXXXXXXXXXXXXXXXXX";
-    NSString *UserName = @"username";
-    NSString *Password = @"password";
+    NSString *UserName = @"XXXXXX";
+    NSString *Password = @"XXXXXX";
 
-    //https://api.twitter.com/1.1/search/tweets.json?q=%23freebandnames&since_id=24012619984051000&max_id=250126199840518145&result_type=mixed&count=4
     STTwitterAPI *_twitter = [STTwitterAPI twitterAPIWithOAuthConsumerKey:ConsumerKey
                                                            consumerSecret:ConsumerSecret
                                                                  username:UserName
@@ -167,10 +152,5 @@
                                   }];
     
 }
-
-
-
-
-
 
 @end
