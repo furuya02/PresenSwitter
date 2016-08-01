@@ -712,23 +712,20 @@
                                                                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="axesIndependently" image="002" id="xKY-h5-C9z"/>
                                                                 </imageView>
                                                                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pil-DU-9eB">
-                                                                    <rect key="frame" x="50" y="148" width="308" height="17"/>
-                                                                    <constraints>
-                                                                        <constraint firstAttribute="height" constant="17" id="LoD-r8-hBP"/>
-                                                                    </constraints>
+                                                                    <rect key="frame" x="50" y="138" width="308" height="27"/>
                                                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="zda-ni-3QM">
-                                                                        <font key="font" size="16" name="HiraMaruPro-W4"/>
+                                                                        <font key="font" size="22" name="HiraMaruPro-W4"/>
                                                                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                                     </textFieldCell>
                                                                 </textField>
                                                                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wyV-7Q-oBd">
-                                                                    <rect key="frame" x="51" y="75" width="307" height="70"/>
+                                                                    <rect key="frame" x="51" y="65" width="307" height="70"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="70" id="i24-Pc-dCc"/>
                                                                     </constraints>
                                                                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Label" id="anB-Fb-Nzt">
-                                                                        <font key="font" metaFont="system" size="16"/>
+                                                                        <font key="font" metaFont="system" size="24"/>
                                                                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                                     </textFieldCell>

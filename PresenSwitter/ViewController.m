@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.fontSize = 13;
+    self.fontSize = 22;
 
     _tweets = [[Tweets alloc]init];
     _tweets.tableView = self.tableview;
@@ -123,11 +123,17 @@
 {
     // 検索文字列
     NSString *query = @"#cmdevio2016";
+//    NSString *query = @"#xamarin";
+//
+//    NSString *ConsumerKey = @"XXXXXXXXXXXXXXXX";
+//    NSString *ConsumerSecret = @"XXXXXXXXXXXXXXXXXXXXXXXXXX";
+//    NSString *UserName = @"XXXXXX";
+//    NSString *Password = @"XXXXXX";
 
-    NSString *ConsumerKey = @"XXXXXXXXXXXXXXXX";
-    NSString *ConsumerSecret = @"XXXXXXXXXXXXXXXXXXXXXXXXXX";
-    NSString *UserName = @"XXXXXX";
-    NSString *Password = @"XXXXXX";
+    NSString *ConsumerKey = @"WDwpsBiA1Jy1tDfe7bZhSFzEL";
+    NSString *ConsumerSecret = @"aFzzPT2d2oEruTfX4d320nAWAqBlKytAWKPNk00khjhuOJRBMs";
+    NSString *UserName = @"furuya02";
+    NSString *Password = @"xxx12#xxx";
 
     STTwitterAPI *_twitter = [STTwitterAPI twitterAPIWithOAuthConsumerKey:ConsumerKey
                                                            consumerSecret:ConsumerSecret

@@ -49,4 +49,5 @@ $ xcode PresenSwitter.xcworkspace
     NSString *Password = @"XXXXXX";
 ```
 
+[[OS X] 透過型のTwitterクライアントを作ってみた](http://dev.classmethod.jp/tool/transmission-twitter-client/)
 
